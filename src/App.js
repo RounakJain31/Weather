@@ -5,7 +5,7 @@ const SearchBar = ({ onSearch }) => {
   const [city, setCity] = useState("");
   const handleSearch = () => {
     onSearch(city);
-  };
+  };  
 
   const changeHandler = (e) => {
     setCity(e.target.value);
