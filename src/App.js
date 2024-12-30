@@ -15,7 +15,7 @@ const SearchBar = ({ onSearch }) => {
     <div className="search-bar">
       <input
         type="text"
-        value={city}
+        value={city} 
         onChange={changeHandler}
         placeholder="Enter city name"
       />
